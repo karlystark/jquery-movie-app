@@ -1,0 +1,109 @@
+body {
+    display: border-box;
+    margin: 0px;
+    background-color: #00246B;
+    color: #faeee3;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 10px;
+    margin-bottom: -20px;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container p {
+    font-size: 3em;
+    margin-top: -10px;
+}
+
+.movie-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #DC3E26;
+    color: #faeee3;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 10px 10px;
+    transition: 0.5s ease;
+}
+
+.movie-form div {
+    padding: 20px;
+}
+
+#title {
+    font-family: "Patrick Hand SC", cursive;
+    border-radius: 6px;
+}
+
+#rating-range {
+    color: #00246B;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+input,
+select,
+button {
+    font-size: 1em;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #faeee3;
+    font-family: "Patrick Hand SC", cursive;
+    color: #00246B;
+    padding: 0px 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #00246B;
+    font-size: 1.2em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00246B;
+    color: #faeee3;
+}
+
+.movie-list {
+    display: flex;
+    align-items: center;
+    flex-direction: wrap reverse;
+    margin-top: 20px;
+}
+
+.film-entry {
+    background-color: #DC3E26;
+    color: #faeee3;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.film-entry button {
+    font-size: .7em;
+}
